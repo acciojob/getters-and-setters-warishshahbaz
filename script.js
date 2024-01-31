@@ -1,5 +1,17 @@
 //complete this code
-class Person {}
+class Person {
+	constructor(name,age){
+		this.name = name;
+		this.age = age;
+	}
+	getter(){
+		console.log(this.name);
+		
+	}
+	setter(newAge){
+		this.age = newAge;
+	}
+}
 
 class Student extends Person {}
 
