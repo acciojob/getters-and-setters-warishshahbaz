@@ -2,14 +2,14 @@
 class Person {
 	constructor(name,age){
 		this.name = name;
-		this.age = age;
+		this.ge = age;
 	}
-	get name(){
+	get NewName(){
 		console.log(this.name);
 		
 	}
-	get age(newAge){
-		this.age = newAge;
+	set NewAge(ages){
+		this.age = ages;
 	}
 }
 
